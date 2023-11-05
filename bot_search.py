@@ -6,7 +6,7 @@ import keyboard
 
 
 
-my_text = 'estou abrindo o bing'
+get_api_text = 'vamos consumir uma api de noticias para sempre atualizarmos a busca'
 
 
 driver = webdriver.ChromiumEdge()
@@ -42,19 +42,4 @@ while True:
 
 
 
-
-
-
-# time.sleep(3)
-
-# # pyautogui.moveTo(x=615,y=194)
-# # pyautogui.click()
-
-# while True:
-#     pyautogui.press('backspace')
-#     time.sleep(1)
-#     pyautogui.press('enter')
-#     time.sleep(1)
-#     pyautogui.moveTo(x=615,y=194)
-#     time.sleep(1.5)
 
