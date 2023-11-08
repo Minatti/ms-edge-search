@@ -35,7 +35,6 @@ class edge_bot():
         time.sleep(0.8)
         search_field.send_keys(Keys.ENTER)
 
-# get_api_text = 'É uma ferramenta gratuita que permite gerar frases e citações escolhidas ao acaso de um vasto banco de dados.Quer fazer um post ou um tweet, mas está sem ideias? Chegou ao sítio certo. No mil-frases criamos o gerador de frases aleatorias para ser facil gerar uma frase ao acaso e ter sempre bons resultados. Basta escolher a categoria pretendida e poderá gerar tantas frases quanto quiser. Para utilizar esta ferramenta, basta clicar no botão "Obter nova frase Aleatória" e uma nova citação será exibida na tela. O Mil-Frases também oferece a opção de gerar citações de autores específicos ou frases sobre temas específicos, bastando selecionar as opções desejadas antes de clicar no botão de geração de frases. Além disso, o Mil-Frases permite que as frases geradas sejam compartilhadas nas redes sociais ou baixadas em formato de imagem.'
 
 # configs
 path_to_profile = [
@@ -44,7 +43,8 @@ path_to_profile = [
                    ]
 path_to_webdriver = "C:\\webdrivers\\msedgedriver.exe"  # Substitua pelo caminho correto do driver
 
-text = 'aauiaoueaoieua teste'
+
+text = 'É uma ferramenta gratuita que permite gerar frases e citações escolhidas ao acaso de um vasto banco de dados.Quer fazer um post ou um tweet, mas está sem ideias? Chegou ao sítio certo. No mil-frases criamos o gerador de frases aleatorias para ser facil gerar uma frase ao acaso e ter sempre bons resultados. Basta escolher a categoria pretendida e poderá gerar tantas frases quanto quiser. Para utilizar esta ferramenta, basta clicar no botão "Obter nova frase Aleatória" e uma nova citação será exibida na tela. O Mil-Frases também oferece a opção de gerar citações de autores específicos ou frases sobre temas específicos, bastando selecionar as opções desejadas antes de clicar no botão de geração de frases. Além disso, o Mil-Frases permite que as frases geradas sejam compartilhadas nas redes sociais ou baixadas em formato de imagem.'
 
 # criando uma nova instancia
 jarbinhas = edge_bot(path_to_profile[0], path_to_webdriver)
