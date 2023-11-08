@@ -1,6 +1,6 @@
 # ms-edge-search
 
-Automação para pesquisar no edge a partir do mecanismo de busca do bing para farmar pontos.
+Automação para pesquisar no edge a partir do mecanismo de busca do bing
 
 ### Tópicos 
 
